@@ -8,7 +8,7 @@
 body {
   background: #a95858;
   color: #333;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
   font-weight: 400px;
@@ -21,7 +21,7 @@ img {
 }
 h2 {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 62px;
   line-height: 82px;
   font-weight: 300;
@@ -35,7 +35,7 @@ h2 {
 }
 h2 em {
   display: block;
-  font-family: 'Yesteryear', cursive;
+  font-family: "Yesteryear", cursive;
   font-size: 100px;
   line-height: 82px;
   font-weight: 400;
@@ -47,7 +47,7 @@ h2 em {
   }
 }
 h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 20px;
   font-weight: 400;
@@ -57,7 +57,7 @@ p a:hover {
   text-decoration: underline;
 }
 figcaption {
-  font-family: 'Yesteryear', cursive;
+  font-family: "Yesteryear", cursive;
   font-size: 30px;
   line-height: 40px;
   font-weight: 400;
@@ -138,9 +138,9 @@ a[href^="tel:"] {
 .fa {
   line-height: inherit;
 }
-[class*='fa-']:before {
+[class*="fa-"]:before {
   font-weight: 400;
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
 }
 .page {
   overflow: hidden;
@@ -202,7 +202,7 @@ a[href^="tel:"] {
   display: block;
 }
 .sf-menu {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 24px;
   line-height: 24px;
   font-weight: 300;
@@ -231,7 +231,7 @@ a[href^="tel:"] {
   box-sizing: border-box;
 }
 .sf-menu ul {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 30px;
   font-weight: 300;
@@ -270,8 +270,8 @@ a[href^="tel:"] {
   left: 50%;
   top: 100%;
   margin-left: -6px;
-  content: '\f0d7';
-  font: 400 12px/12px 'FontAwesome';
+  content: "\f0d7";
+  font: 400 12px/12px "FontAwesome";
 }
 @media (max-width: 767px) {
   .sf-menu {
@@ -388,7 +388,7 @@ a[href^="tel:"] {
   display: none;
   margin: 0 auto;
   width: 420px;
-  background: #ffffff url('../images/select.png') no-repeat right center;
+  background: #ffffff url("../images/select.png") no-repeat right center;
   overflow: hidden;
 }
 .select-menu .select {
@@ -396,7 +396,7 @@ a[href^="tel:"] {
   height: 30px;
   color: #585858;
   background-color: transparent;
-  font: 400 15px 'Open Sans', sans-serif;
+  font: 400 15px "Open Sans", sans-serif;
   line-height: 30px;
   border: none;
   border-radius: 0;
@@ -478,24 +478,24 @@ a[href^="tel:"] {
 }
 .parallax1 {
   text-align: center;
-  background-color: #FFF;
+  background-color: #fff;
   background-image: url(../images/parallax01.jpg);
   padding: 132px 0 127px;
 }
 .parallax2 {
   color: #ffffff;
-  background-color: #FFF;
+  background-color: #fff;
   background-image: url(../images/parallax02.jpg);
   padding: 142px 0 142px;
 }
 .parallax3 {
-  background-color: #FFF;
+  background-color: #fff;
   background-image: url(../images/parallax03.jpg);
   padding: 117px 0 122px;
 }
 .parallax4 {
   color: #ffffff;
-  background-color: #FFF;
+  background-color: #fff;
   background-image: url(../images/parallax04.jpg);
   padding: 97px 0 100px;
 }
@@ -504,7 +504,7 @@ a[href^="tel:"] {
 }
 .parallax5 {
   color: #ffffff;
-  background-color: #FFF;
+  background-color: #fff;
   background-image: url(../images/parallax05.jpg);
   padding: 134px 0px 132px;
 }
@@ -515,11 +515,11 @@ a[href^="tel:"] {
   position: relative;
 }
 .parallax5 h2:before {
-  content: '\f000';
+  content: "\f000";
   position: absolute;
   left: 0;
   top: 10px;
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   font-size: 60px;
   line-height: 60px;
 }
@@ -563,7 +563,7 @@ header .nav {
   padding: 0 0 6px 4px;
   display: inline-block;
   overflow: hidden;
-  font-family: 'Yesteryear', cursive;
+  font-family: "Yesteryear", cursive;
   font-size: 60px;
   line-height: 64px;
   color: #ffffff;
@@ -643,7 +643,7 @@ main {
 .btn {
   position: relative;
   display: inline-block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 20px;
   font-weight: 400;
@@ -651,7 +651,7 @@ main {
 }
 .btn:before,
 .btn:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   right: 50%;
@@ -691,7 +691,7 @@ main {
   text-align: center;
 }
 .decoration:before {
-  content: '';
+  content: "";
   position: absolute;
   height: 1px;
   top: 10px;
@@ -702,7 +702,7 @@ main {
   background: #6c6860;
 }
 .decoration:after {
-  content: '';
+  content: "";
   position: absolute;
   height: 1px;
   top: 10px;
@@ -929,7 +929,7 @@ footer .tm {
   margin-top: 11px;
 }
 .client {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 20px;
   font-weight: 400;
@@ -937,7 +937,7 @@ footer .tm {
 }
 .client em {
   display: block;
-  font-family: 'Yesteryear', cursive;
+  font-family: "Yesteryear", cursive;
   font-size: 30px;
   line-height: 40px;
   font-weight: 400;
