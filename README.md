@@ -57,3 +57,69 @@ To https://github.com/ishimwezachee/git-cafe-exercise.git
 branch 'ft/menu' set up to track 'origin/ft/menu'.
 
 ```
+
+### Exercise 2 
+
+```bash
+ZACHEE@DESKTOP-JM7SBUV MINGW64 ~/Desktop/thegym/trainings/git-cafe-exercise (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+ZACHEE@DESKTOP-JM7SBUV MINGW64 ~/Desktop/thegym/trainings/git-cafe-exercise (main)
+$ git checkout -b bg/fix
+Switched to a new branch 'bg/fix'
+
+ZACHEE@DESKTOP-JM7SBUV MINGW64 ~/Desktop/thegym/trainings/git-cafe-exercise (bg/fix)
+$ git status
+On branch bg/fix
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index-4.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ZACHEE@DESKTOP-JM7SBUV MINGW64 ~/Desktop/thegym/trainings/git-cafe-exercise (bg/fix)
+$ git add .
+
+ZACHEE@DESKTOP-JM7SBUV MINGW64 ~/Desktop/thegym/trainings/git-cafe-exercise (bg/fix)
+$ git commit -m 'change menu to contact'
+[bg/fix 1c4770b] change menu to contact
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+ZACHEE@DESKTOP-JM7SBUV MINGW64 ~/Desktop/thegym/trainings/git-cafe-exercise (bg/fix)
+$ gi git push
+bash: gi: command not found
+
+ZACHEE@DESKTOP-JM7SBUV MINGW64 ~/Desktop/thegym/trainings/git-cafe-exercise (bg/fix)
+$ git push
+fatal: The current branch bg/fix has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin bg/fix
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+ZACHEE@DESKTOP-JM7SBUV MINGW64 ~/Desktop/thegym/trainings/git-cafe-exercise (bg/fix)
+$   git push --set-upstream origin bg/fix
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 304 bytes | 304.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'bg/fix' on GitHub by visiting:
+remote:      https://github.com/ishimwezachee/git-cafe-exercise/pull/new/bg/fix
+remote:
+To https://github.com/ishimwezachee/git-cafe-exercise.git
+ * [new branch]      bg/fix -> bg/fix
+branch 'bg/fix' set up to track 'origin/bg/fix'.
+
+ZACHEE@DESKTOP-JM7SBUV MINGW64 ~/Desktop/thegym/trainings/git-cafe-exercise (bg/fix)
+
+```
