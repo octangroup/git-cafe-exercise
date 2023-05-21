@@ -28,3 +28,9 @@
   261  git commit -m "new"
   262  git push origin bugfix/contact
   263  history
+  # Exercise 3
+    274  vi index-4.html
+  264  git add .
+  265  git commit -m "new"
+  266  git push origin bugfix/contact
+  267  history
