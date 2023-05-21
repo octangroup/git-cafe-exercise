@@ -1,32 +1,21 @@
 ## BUNDLE 6
-# Exercise 1
+# Exercise 3
 ```
-PS C:\Users\student\Downloads\git-cafe-exercise> git branch feature/menu.html
-PS C:\Users\student\Downloads\git-cafe-exercise> git checkout feature/menu.html
-PS C:\Users\student\Downloads\git-cafe-exercise> git add .
-PS C:\Users\student\Downloads\git-cafe-exercise> git status
-On branch feature/menu.html
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        new file:   menu.html
-
-PS C:\Users\student\Downloads\git-cafe-exercise> git commit -m "added changes to menu"
-[feature/menu.html c9c552b] added changes to menu
- 1 file changed, 13 insertions(+)
- create mode 100644 menu.html
-PS C:\Users\student\Downloads\git-cafe-exercise> git push origin feature/menu.html
-Enumerating objects: 4, done.
-Counting objects: 100% (4/4), done.
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Users\student\Downloads\git-cafe-exercise> git add index-4.html
+PS C:\Users\student\Downloads\git-cafe-exercise> git commit -m "Changed the telephone on the index-4.html page"
+[main 0e2e17e] Changed the telephone on the index-4.html page
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\student\Downloads\git-cafe-exercise> git push 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
 Delta compression using up to 4 threads
 Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 507 bytes | 253.00 KiB/s, done.
-Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-remote: 
-remote: Create a pull request for 'feature/menu.html' on GitHub by visiting:
-remote:      https://github.com/AL2002MI08/git-cafe-exercise/pull/new/feature/menu.html
-remote:
+Writing objects: 100% (3/3), 323 bytes | 323.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/AL2002MI08/git-cafe-exercise.git
- * [new branch]      feature/menu.html -> feature/menu.html
+   0814e57..0e2e17e  main -> main
 PS C:\Users\student\Downloads\git-cafe-exercise>
 ```
