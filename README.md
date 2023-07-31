@@ -1,5 +1,44 @@
 # git-cafe-exercise
 #Bundle 6
+## Exercise 1
+```
+Lenovo@DESKTOP-6LCGN4B MINGW64 ~/git-cafe-exercise (feature)
+$ vi menu.html
+
+Lenovo@DESKTOP-6LCGN4B MINGW64 ~/git-cafe-exercise (feature)
+$ git add .
+warning: LF will be replaced by CRLF in menu.html.
+The file will have its original line endings in your working directory
+
+Lenovo@DESKTOP-6LCGN4B MINGW64 ~/git-cafe-exercise (feature)
+$ git commit -m 'menu'
+On branch feature
+nothing to commit, working tree clean
+
+Lenovo@DESKTOP-6LCGN4B MINGW64 ~/git-cafe-exercise (feature)
+$ git push
+fatal: The current branch feature has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feature
+
+
+Lenovo@DESKTOP-6LCGN4B MINGW64 ~/git-cafe-exercise (feature)
+$ ls
+README.md  css/     index-1.html  index-3.html  index.html  menu.html
+bat/       images/  index-2.html  index-4.html  js/
+
+Lenovo@DESKTOP-6LCGN4B MINGW64 ~/git-cafe-exercise (feature)
+$ git push --set-upstream origin feature
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/ell-sie/git-cafe-exercise/pull/new/feature
+remote:
+To https://github.com/ell-sie/git-cafe-exercise.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
+```
 ## Exercise 2
 ```
 Lenovo@DESKTOP-6LCGN4B MINGW64 ~/git-cafe-exercise (main)
