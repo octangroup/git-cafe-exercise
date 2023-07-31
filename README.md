@@ -1,4 +1,65 @@
 # git-cafe-exercise
+#Bundle 5
+```
+Lenovo@DESKTOP-6LCGN4B MINGW64 ~ (main)
+$ git clone https://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@github.com/ell-sie/git-cafe-exercise.git
+Cloning into 'git-cafe-exercise'...
+remote: Enumerating objects: 107, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 107 (delta 5), reused 4 (delta 4), pack-reused 93
+Receiving objects: 100% (107/107), 1.95 MiB | 34.00 KiB/s, done.
+Resolving deltas: 100% (5/5), done.
+
+Lenovo@DESKTOP-6LCGN4B MINGW64 ~ (main)
+$ cd git-cafe-exercise/
+
+Lenovo@DESKTOP-6LCGN4B MINGW64 ~/git-cafe-exercise (main)
+$ ls
+README.md  css/     index-1.html  index-3.html  index.html
+bat/       images/  index-2.html  index-4.html  js/
+
+Lenovo@DESKTOP-6LCGN4B MINGW64 ~/git-cafe-exercise (main)
+$ git checkout -b feature
+Switched to a new branch 'feature'
+
+Lenovo@DESKTOP-6LCGN4B MINGW64 ~/git-cafe-exercise (feature)
+$ vi menu.html
+
+Lenovo@DESKTOP-6LCGN4B MINGW64 ~/git-cafe-exercise (feature)
+$ git add .
+warning: LF will be replaced by CRLF in menu.html.
+The file will have its original line endings in your working directory
+
+Lenovo@DESKTOP-6LCGN4B MINGW64 ~/git-cafe-exercise (feature)
+$ git commit -m 'menu'
+On branch feature
+nothing to commit, working tree clean
+
+Lenovo@DESKTOP-6LCGN4B MINGW64 ~/git-cafe-exercise (feature)
+$ git push
+fatal: The current branch feature has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feature
+
+
+Lenovo@DESKTOP-6LCGN4B MINGW64 ~/git-cafe-exercise (feature)
+$ ls
+README.md  css/     index-1.html  index-3.html  index.html  menu.html
+bat/       images/  index-2.html  index-4.html  js/
+
+Lenovo@DESKTOP-6LCGN4B MINGW64 ~/git-cafe-exercise (feature)
+$ git push --set-upstream origin feature
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/ell-sie/git-cafe-exercise/pull/new/feature
+remote:
+To https://github.com/ell-sie/git-cafe-exercise.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
+```
 #Bundle 6
 ## Exercise 1
 ```
