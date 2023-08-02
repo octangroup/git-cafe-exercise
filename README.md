@@ -136,3 +136,30 @@ DOLPHIX ELECTRONICS@DESKTOP-TJ49EDU MINGW64 ~/OneDrive/Desktop/The Gym/Git-Exerc
 $
 
 ```
+
+### Exercise 3
+```bash 
+
+DOLPHIX ELECTRONICS@DESKTOP-TJ49EDU MINGW64 ~/OneDrive/Desktop/The Gym/Git-Exercise/git-cafe-exercise (ft/bug-fix)
+$ git checkout -b "ft/hotfix"
+Switched to a new branch 'ft/hotfix'
+
+DOLPHIX ELECTRONICS@DESKTOP-TJ49EDU MINGW64 ~/OneDrive/Desktop/The Gym/Git-Exercise/git-cafe-exercise (ft/hotfix)
+$ git add .
+
+DOLPHIX ELECTRONICS@DESKTOP-TJ49EDU MINGW64 ~/OneDrive/Desktop/The Gym/Git-Exercise/git-cafe-exercise (ft/hotfix)
+$ git status
+On branch ft/hotfix
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index-4.html
+
+
+DOLPHIX ELECTRONICS@DESKTOP-TJ49EDU MINGW64 ~/OneDrive/Desktop/The Gym/Git-Exercise/git-cafe-exercise (ft/hotfix)
+$ git commit -m "Hotfix: Telephone Number changed"
+[ft/hotfix 8aaaa88] Hotfix: Telephone Number changed
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+DOLPHIX ELECTRONICS@DESKTOP-TJ49EDU MINGW64 ~/OneDrive/Desktop/The Gym/Git-Exercise/git-cafe-exercise (ft/hotfix)
+$
+```
