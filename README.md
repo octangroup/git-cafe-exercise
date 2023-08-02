@@ -91,3 +91,56 @@ remote:
 To https://github.com/gitarecy/git-cafe-exercise.git
  * [new branch]      ft/menu -> ft/menu
 ```
+### Exercise 2 
+```bash
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (ft/menu)
+$ git checkout -b ft/bugfix
+Switched to a new branch 'ft/bugfix'
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (ft/bugfix)
+$ ls
+README.md  css/     index-1.html  index-3.html  index.html  menu.html
+bat/       images/  index-2.html  index-4.html  js/
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (ft/bugfix)
+$ mv index-4.html contact.html
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (ft/bugfix)
+$ ls
+README.md  contact.html  images/       index-2.html  index.html  menu.html
+bat/       css/          index-1.html  index-3.html  js/
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (ft/bugfix)
+$ vi contact.html
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (ft/bugfix)
+$ git add .
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (ft/bugfix)
+$ git commit -m 'rename index4 to contact'
+[ft/bugfix f8ff46e] rename index4 to contact
+ 1 file changed, 203 insertions(+), 203 deletions(-)
+ rename index-4.html => contact.html (97%)
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (ft/bugfix)
+$ git push origin ft/bugfix
+fatal: User canceled device code authentication
+
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (ft/bugfix)
+$ git push origin ft/bugfix
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.49 KiB | 1.25 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'ft/bugfix' on GitHub by visiting:
+remote:      https://github.com/gitarecy/git-cafe-exercise/pull/new/ft/bugfix
+remote:
+To https://github.com/gitarecy/git-cafe-exercise.git
+ * [new branch]      ft/bugfix -> ft/bugfix
+```
