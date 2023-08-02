@@ -52,3 +52,42 @@ remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/gitarecy/git-cafe-exercise.git
    d1d3f9c..9ae8ab9  main -> main
 ```
+
+## Bundle 6 
+### Exercise 1
+
+```bash
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (main)
+$ git checkout -b ft/menu
+Switched to a new branch 'ft/menu'
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (ft/menu)
+$ vi menu.html
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (ft/menu)
+$ git add .
+warning: in the working copy of 'menu.html', LF will be replaced by CRLF the next time Git touches it
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (ft/menu)
+$ git commit -m 'menu page '
+[ft/menu 4291aaa] menu page
+ 1 file changed, 17 insertions(+)
+ create mode 100644 menu.html
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (ft/menu)
+$ git push origin ft/menu
+Enumerating objects: 113, done.
+Counting objects: 100% (113/113), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (106/106), done.
+Writing objects: 100% (113/113), 1.95 MiB | 1.17 MiB/s, done.
+Total 113 (delta 8), reused 105 (delta 5), pack-reused 0
+remote: Resolving deltas: 100% (8/8), done.
+remote:
+remote: Create a pull request for 'ft/menu' on GitHub by visiting:
+remote:      https://github.com/gitarecy/git-cafe-exercise/pull/new/ft/menu
+remote:
+To https://github.com/gitarecy/git-cafe-exercise.git
+ * [new branch]      ft/menu -> ft/menu
+```
