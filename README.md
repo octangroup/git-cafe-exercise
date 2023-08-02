@@ -144,3 +144,43 @@ remote:
 To https://github.com/gitarecy/git-cafe-exercise.git
  * [new branch]      ft/bugfix -> ft/bugfix
 ```
+
+### Exercise 3
+```bash
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (main)
+$ git checkout -b ft/hotfix
+Switched to a new branch 'ft/hotfix'
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (ft/hotfix)
+$ ls
+README.md  css/     index-1.html  index-3.html  index.html
+bat/       images/  index-2.html  index-4.html  js/
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (ft/hotfix)
+$ vi index-4.html
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (ft/hotfix)
+$ git add .
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (ft/hotfix)
+$ git commit -m 'change telephone on index 4'
+[ft/hotfix cc6825e] change telephone on index 4
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+LENOVO@DESKTOP-5GQ3HIK MINGW64 ~/Desktop/git-cafe-exercise (ft/hotfix)
+$ git push origin ft/hotfix
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 303 bytes | 151.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'ft/hotfix' on GitHub by visiting:
+remote:      https://github.com/gitarecy/git-cafe-exercise/pull/new/ft/hotfix
+remote:
+To https://github.com/gitarecy/git-cafe-exercise.git
+ * [new branch]      ft/hotfix -> ft/hotfix
+```
