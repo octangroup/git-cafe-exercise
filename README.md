@@ -86,3 +86,49 @@ branch 'ft/menu' set up to track 'origin/ft/menu'.
 RIYO@DESKTOP-DETFET6 MINGW64 /d/Codes/009 - Studies/001 - The-Gym/001 - git/003 - git-cafe-exercises (ft/menu)
 $
 ```
+
+## Bundle 6 # exercise 2
+```
+
+RIYO@DESKTOP-DETFET6 MINGW64 /d/Codes/009 - Studies/001 - The-Gym/001 - git/003 - git-cafe-exercises (ft/menu)
+$ git switch -c fix/contact
+Switched to a new branch 'fix/contact'
+
+RIYO@DESKTOP-DETFET6 MINGW64 /d/Codes/009 - Studies/001 - The-Gym/001 - git/003 - git-cafe-exercises (fix/contact)
+$ git add .
+
+RIYO@DESKTOP-DETFET6 MINGW64 /d/Codes/009 - Studies/001 - The-Gym/001 - git/003 - git-cafe-exercises (fix/contact)
+$ git commit -m "Change Menu title -> Contact title"
+[fix/contact cc33baf] Change Menu title -> Contact title
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+RIYO@DESKTOP-DETFET6 MINGW64 /d/Codes/009 - Studies/001 - The-Gym/001 - git/003 - git-cafe-exercises (fix/contact)
+$ git push
+fatal: The current branch fix/contact has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin fix/contact
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+RIYO@DESKTOP-DETFET6 MINGW64 /d/Codes/009 - Studies/001 - The-Gym/001 - git/003 - git-cafe-exercises (fix/contact)
+$ git push origin fix/contact 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 317 bytes | 317.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'fix/contact' on GitHub by visiting:
+remote:      https://github.com/riyoneri/git-cafe-exercise/pull/new/fix/contact
+remote:
+To https://github.com/riyoneri/git-cafe-exercise.git
+ * [new branch]      fix/contact -> fix/contact
+
+RIYO@DESKTOP-DETFET6 MINGW64 /d/Codes/009 - Studies/001 - The-Gym/001 - git/003 - git-cafe-exercises (fix/contact)
+$
+```
