@@ -132,3 +132,64 @@ To https://github.com/riyoneri/git-cafe-exercise.git
 RIYO@DESKTOP-DETFET6 MINGW64 /d/Codes/009 - Studies/001 - The-Gym/001 - git/003 - git-cafe-exercises (fix/contact)
 $
 ```
+
+## Bundle 6 # exercise 3
+```
+ - git-cafe-exercises (fix/contact)
+$ git switch fix/contact-number
+fatal: invalid reference: fix/contact-number
+
+RIYO@DESKTOP-DETFET6 MINGW64 /d/Codes/009 - Studies/001 - The-Gym/001 - git/003 - git-cafe-exercises (fix/contact)
+$ git switch -c fix/contact-number
+Switched to a new branch 'fix/contact-number'
+
+RIYO@DESKTOP-DETFET6 MINGW64 /d/Codes/009 - Studies/001 - The-Gym/001 - git/003 - git-cafe-exercises (fix/contact-number)
+$ git add .
+
+bash: it: command not found
+
+RIYO@DESKTOP-DETFET6 MINGW64 /d/Codes/009 - Studies/001 - The-Gym/001 - git/003 - git-cafe-exercises (fix/contact-number)
+$ git add .
+
+RIYO@DESKTOP-DETFET6 MINGW64 /d/Codes/009 - Studies/001 - The-Gym/001 - git/003 - git-cafe-exercises (fix/contact-number)
+$ git commit -m "change telephone number [index-4.html]"
+On branch fix/contact-number
+nothing to commit, working tree clean
+
+RIYO@DESKTOP-DETFET6 MINGW64 /d/Codes/009 - Studies/001 - The-Gym/001 - git/003 - git-cafe-exercises (fix/contact-number)
+$ git status
+On branch fix/contact-number
+nothing to commit, working tree clean
+
+RIYO@DESKTOP-DETFET6 MINGW64 /d/Codes/009 - Studies/001 - The-Gym/001 - git/003 - git-cafe-exercises (fix/contact-number)
+$ git status
+On branch fix/contact-number
+nothing to commit, working tree clean
+
+RIYO@DESKTOP-DETFET6 MINGW64 /d/Codes/009 - Studies/001 - The-Gym/001 - git/003 - git-cafe-exercises (fix/contact-number)
+$ git add .
+
+RIYO@DESKTOP-DETFET6 MINGW64 /d/Codes/009 - Studies/001 - The-Gym/001 - git/003 - git-cafe-exercises (fix/contact-number)
+$ git commit -m "change telephone number [index-4.html]"
+[fix/contact-number 8f7996d] change telephone number [index-4.html]
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+RIYO@DESKTOP-DETFET6 MINGW64 /d/Codes/009 - Studies/001 - The-Gym/001 - git/003 - git-cafe-exercises (fix/contact-number)
+$ git push origin fix/contact-number 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 315 bytes | 315.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'fix/contact-number' on GitHub by visiting:
+remote:      https://github.com/riyoneri/git-cafe-exercise/pull/new/fix/contact-number
+remote:
+To https://github.com/riyoneri/git-cafe-exercise.git
+ * [new branch]      fix/contact-number -> fix/contact-number
+
+RIYO@DESKTOP-DETFET6 MINGW64 /d/Codes/009 - Studies/001 - The-Gym/001 - git/003 - git-cafe-exercises (fix/contact-number)
+$
+```
