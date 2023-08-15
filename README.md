@@ -63,3 +63,24 @@ admin-MacBook-Pro:git-cafe-exercise $
 ```
 
 ### Exercise2:
+
+```
+admin-MacBook-Pro:git-cafe-exercise $ git checkout -b bug-fix
+M       README.md
+Switched to a new branch 'bug-fix'
+admin-MacBook-Pro:git-cafe-exercise $ git add .
+admin-MacBook-Pro:git-cafe-exercise $ git commit -m "update index-4.html"
+[bug-fix f7ba665] update index-4.html
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+admin-MacBook-Pro:git-cafe-exercise $ git push origin bug-fix
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 417 bytes | 417.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/divinecharlotte/git-cafe-exercise.git
+ + 7d41747...f7ba665 bug-fix -> bug-fix (forced update)
+admin-MacBook-Pro:git-cafe-exercise $
+```
