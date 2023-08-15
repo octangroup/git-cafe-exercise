@@ -33,3 +33,29 @@ To https://github.com/divinecharlotte/git-cafe-exercise.git
    afa1610..c56783e  main -> main
 admin-MacBook-Pro:git-cafe-exercise $
 ```
+
+### BUNDLE6
+
+```
+dmin-MacBook-Pro:git-cafe-exercise $ git checkout -b dev
+Switched to a new branch 'dev'
+admin-MacBook-Pro:git-cafe-exercise $ git add .
+admin-MacBook-Pro:git-cafe-exercise $ git commit -m "affect menu on feature branch"
+[dev 807da30] affect menu on feature branch
+ 1 file changed, 1 insertion(+), 1 deletion
+admin-MacBook-Pro:git-cafe-exercise $ git push origin dev
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 310 bytes | 310.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'dev' on GitHub by visiting:
+remote:      https://github.com/divinecharlotte/git-cafe-exercise/pull/new/dev
+remote:
+To https://github.com/divinecharlotte/git-cafe-exercise.git
+ * [new branch]      dev -> dev
+admin-MacBook-Pro:git-cafe-exercise $
+```
