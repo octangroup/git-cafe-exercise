@@ -36,6 +36,8 @@ admin-MacBook-Pro:git-cafe-exercise $
 
 ### BUNDLE6
 
+### Exercise1:
+
 ```
 dmin-MacBook-Pro:git-cafe-exercise $ git checkout -b dev
 Switched to a new branch 'dev'
@@ -59,3 +61,5 @@ To https://github.com/divinecharlotte/git-cafe-exercise.git
  * [new branch]      dev -> dev
 admin-MacBook-Pro:git-cafe-exercise $
 ```
+
+### Exercise2:
